@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: rgb(207, 116, 200);
-    background-image: url("Pagina2/imagenes/fondo.jpg");
+    background-image: url("imagenes/FPesado.jpg");
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -37,6 +37,8 @@ h1 {
     height: auto;
     border-radius: 20px;
     border-color: rgb(49, 156, 17);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
 button {
@@ -52,16 +54,6 @@ button {
 
 button:hover {
     background-color: rgb(134, 116, 92);
-}
-
-.cart {
-    display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    background-color: rgb(163, 56, 122);
-    border: 1px solid rgb(200, 200, 200);
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #cart-items {
